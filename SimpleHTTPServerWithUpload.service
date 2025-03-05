@@ -3,7 +3,7 @@ Description=Simple HTTP Server With Upload
 
 [Service]
 ExecStart=/bin/SimpleHTTPServerWithUpload.sh
-Restart=Always
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
