@@ -1,4 +1,4 @@
 #!/bin/bash
 clear
-cd /mnt/shared_media
+cd /home/zz/down/share
 python3 /bin/SimpleHTTPServerWithUpload.py 8080
