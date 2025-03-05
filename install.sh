@@ -6,4 +6,5 @@ chmod -v +x /bin/SimpleHTTPServerWithUpload.py
 chmod -v +x /bin/SimpleHTTPServerWithUpload.sh
 chmod -v 644 /lib/systemd/system/SimpleHTTPServerWithUpload.service
 systemctl enable SimpleHTTPServerWithUpload
+systemctl start SimpleHTTPServerWithUpload
 exit
